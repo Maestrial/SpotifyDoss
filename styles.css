@@ -1,0 +1,120 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("Images/fond.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Gill Sans", "Gill Sans MT";
+  overflow: hidden;
+}
+
+.txtTop{
+  font-size:20px;
+  color: white;
+}
+.txtBoutton{
+  color: white;
+
+}
+.txtBoutton:hover{
+  color: black;
+}
+a:link{
+  text-decoration: none ;
+}
+
+#all_app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 1.5%;
+  width: 60%;
+  height: 6%;
+  background-color:#1D1A1E ;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.headerLeft{
+  display: flex;
+  flex-direction: row;
+
+}
+.headerRight{
+  margin-left: ;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+justify-content: space-around;
+}
+.logoTop{
+  padding-top: 17px;
+  padding-right:17px ;
+  padding-left: 17px;
+  width: 30px;
+  height: 28px;
+}
+.nav{
+  background-color: #1D1A1E;
+  list-style-type: none;
+ width: 60%;
+ height: 30%;
+ border-bottom-left-radius: 30px;
+ border-bottom-right-radius: 30px;
+
+
+}
+nav{
+  display: flex;
+}
+.navLeft{
+  margin-top: 20px;
+margin-left: 8%;
+
+}
+.navRight{
+  margin-top:10px;
+  padding-left: 20%;
+}
+li{
+  cursor: pointer;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 280px;
+  height: 35px;
+  margin-top: 10px;
+}
+li:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.disque{  
+  width: 75%;
+  height: 85%;
+}
+
+.imgBoutton{
+margin-right: 8px;
+}
+.boutonHome{
+ background-color: white  ;
+ color: black;
+}
+.rest_app{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 60%;
+  height: 60vh;
+border-radius: 30px;
+}
